@@ -10,32 +10,32 @@ export const navigation = [
 
 export const features = [
   {
-    name: "Mission One",
+    name: "Program One",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus. Nulla in ante sed ex convallis dignissim nec aliquam nisl.",
   },
   {
-    name: "Mission Two",
+    name: "Program Two",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },
   {
-    name: "Mission Three",
+    name: "Program Three",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },
   {
-    name: "Mission Four",
+    name: "Program Four",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },
   {
-    name: "Mission Five",
+    name: "Program Five",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },
   {
-    name: "Mission Six",
+    name: "Program Six",
     description:
       "Lorem ipsum dolor sit, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },

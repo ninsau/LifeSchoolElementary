@@ -1,5 +1,8 @@
 import type { NextPage } from "next";
 import Image from "next/image";
+import ActionComponent from "./Action";
+import BannerComponent from "./Banner";
+import MapComponent from "./Map";
 import MissionComponent from "./Mission";
 
 const HomeComponent: NextPage = () => {
@@ -117,7 +120,10 @@ const HomeComponent: NextPage = () => {
           </div>
         </div>
       </div>
+      <BannerComponent />
       <MissionComponent />
+      <ActionComponent />
+      <MapComponent />
     </>
   );
 };

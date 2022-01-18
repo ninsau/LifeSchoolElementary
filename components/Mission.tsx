@@ -14,6 +14,7 @@ const MissionComponent: NextPage = () => {
             <p className="mt-4 text-gray-500">
               Life School educates students to be free, creative, and critical
               thinkers. We are committed to the success of all our learners.
+              Here are some of the programs we offer:
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
