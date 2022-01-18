@@ -37,6 +37,6 @@ export const features = [
   {
     name: "Mission Six",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
+      "Lorem ipsum dolor sit, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
   },
 ];
