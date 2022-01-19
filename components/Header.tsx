@@ -2,12 +2,14 @@ import type { NextPage } from "next";
 import { Disclosure } from "@headlessui/react";
 import { PhoneIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { navigation } from "../utils";
+import { useRouter } from "next/router";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
 
 const HeaderComponent: NextPage = () => {
+  const router = useRouter();
   return (
     <Disclosure as="nav" className="bg-gray-800 mb-5">
       {({ open }) => (
@@ -43,9 +45,11 @@ const HeaderComponent: NextPage = () => {
                     {navigation.map((item: any) => (
                       <a
                         key={item.name}
-                        href={item.href}
+                        onClick={() => router.push(`${item.href}`)}
+                        style={{ cursor: "pointer" }}
                         className={classNames(
-                          item.current
+                          //   item.current
+                          false
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
                           "px-3 py-2 rounded-md text-sm font-medium"
