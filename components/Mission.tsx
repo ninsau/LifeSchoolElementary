@@ -12,9 +12,9 @@ const MissionComponent: NextPage = () => {
               Mission Statement
             </h2>
             <p className="mt-4 text-gray-500">
-              Life School educates students to be free, creative, and critical
-              thinkers. We are committed to the success of all our learners.
-              Here are some of the programs we offer:
+              Life School Ghana educates students to be independent, confident,
+              creative and critical thinkers. Here are some of the programs we
+              offer:
             </p>
 
             <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
@@ -33,36 +33,36 @@ const MissionComponent: NextPage = () => {
           </div>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
             <Image
-              src="https://images.unsplash.com/photo-1588072432733-2b6a4873b187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://images.unsplash.com/photo-1588072432733-2b6a4873b187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
               placeholder="blur"
             />
 
             <Image
-              src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
               placeholder="blur"
             />
             <Image
-              src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1864&q=80"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1864&q=80"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
               placeholder="blur"
             />
             <Image
-              src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
               placeholder="blur"
             />
           </div>

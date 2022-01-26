@@ -14,10 +14,10 @@ const StudentsComponent: NextPage = () => {
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Here are some of our students
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            {/* <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
               magnam voluptatum cupiditate veritatis in accusamus quisquam.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const StudentsComponent: NextPage = () => {
                     placeholder="blur"
                   />
                 </div>
-                <div className="mt-4 flex justify-between">
+                {/* <div className="mt-4 flex justify-between">
                   <div>
                     <h3 className="text-sm text-gray-700">
                       <a href={product.href}>
@@ -52,7 +52,7 @@ const StudentsComponent: NextPage = () => {
                   <p className="text-sm font-medium text-gray-900">
                     {product.price}
                   </p>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>

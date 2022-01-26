@@ -27,9 +27,8 @@ const AcademicsComponent: NextPage = () => {
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  Life School Ghana educates students to be independent,
+                  confident, creative and critical thinkers.
                 </p>
               </div>
             </main>
@@ -53,10 +52,10 @@ const AcademicsComponent: NextPage = () => {
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               What we do
             </p>
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+            {/* <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
               magnam voluptatum cupiditate veritatis in accusamus quisquam.
-            </p>
+            </p> */}
           </div>
 
           <div className="mt-10">

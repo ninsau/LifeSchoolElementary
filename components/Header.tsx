@@ -3,6 +3,7 @@ import { Disclosure } from "@headlessui/react";
 import { PhoneIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { navigation } from "../utils";
 import { useRouter } from "next/router";
+import { stateStore } from "../utils/store";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -10,6 +11,9 @@ function classNames(...classes: any) {
 
 const HeaderComponent: NextPage = () => {
   const router = useRouter();
+  const open = stateStore((state) => state.open);
+  const setOpen = stateStore((state) => state.setOpen);
+
   return (
     <Disclosure as="nav" className="bg-gray-800 mb-5">
       {({ open }) => (
@@ -28,8 +32,12 @@ const HeaderComponent: NextPage = () => {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                <div className="flex-shrink-0 flex items-center">
-                  <img
+                <div
+                  className="flex-shrink-0 flex items-center text-white"
+                  onClick={() => router.push("/")}
+                  style={{ cursor: "pointer" }}
+                >
+                  {/* <img
                     className="block lg:hidden h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
                     alt="Workflow"
@@ -38,7 +46,8 @@ const HeaderComponent: NextPage = () => {
                     className="hidden lg:block h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
                     alt="Workflow"
-                  />
+                  /> */}
+                  LifeSchoolGhana
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -65,6 +74,7 @@ const HeaderComponent: NextPage = () => {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
+                  onClick={() => setOpen(!open)}
                   className="bg-gray-800 p-1 rounded-full text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                 >
                   <span className="sr-only">View notifications</span>

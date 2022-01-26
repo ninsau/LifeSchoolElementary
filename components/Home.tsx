@@ -4,8 +4,10 @@ import ActionComponent from "./Action";
 import BannerComponent from "./Banner";
 import MapComponent from "./Map";
 import MissionComponent from "./Mission";
+import { useRouter } from "next/router";
 
 const HomeComponent: NextPage = () => {
+  const router = useRouter();
   return (
     <>
       <div className="relative bg-white overflow-hidden">
@@ -16,9 +18,15 @@ const HomeComponent: NextPage = () => {
                 Open for Admissions!
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                Life School educates students to be free, creative, and critical
-                thinkers. We are committed to the success of all our learners.
+                Life School Ghana offers:
               </p>
+              <ol type="1" className="mt-4 font-medium text-gray-900">
+                <li>Language programmes (Twi & English lessons).</li>
+                <li>
+                  Primary years programme through the lense of Ghana and UK
+                  curricular standards.
+                </li>
+              </ol>
             </div>
             <div>
               <div className="mt-10">
@@ -32,53 +40,21 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <Image
-                            src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
                             width={200}
                             height={280}
                             alt={"student"}
-                            blurDataURL={`https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80`}
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp`}
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp"
                             width={200}
                             height={280}
                             alt={"student"}
-                            blurDataURL={`https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80`}
-                            placeholder="blur"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
-                            placeholder="blur"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://images.unsplash.com/photo-1577896851231-70ef18881754?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                            placeholder="blur"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1864&q=80"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1864&q=80"
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp`}
                             placeholder="blur"
                           />
                         </div>
@@ -86,21 +62,53 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80"
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             width={200}
                             height={280}
                             alt={"student"}
-                            blurDataURL="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1296&q=80"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://images.unsplash.com/photo-1588072432733-2b6a4873b187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
                             width={200}
                             height={280}
                             alt={"student"}
-                            blurDataURL="https://images.unsplash.com/photo-1588072432733-2b6a4873b187?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            width={200}
+                            height={280}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            width={200}
+                            height={280}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
+                            width={200}
+                            height={280}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
                             placeholder="blur"
                           />
                         </div>
@@ -110,7 +118,8 @@ const HomeComponent: NextPage = () => {
                 </div>
 
                 <a
-                  href="#"
+                  onClick={() => router.push("/contact")}
+                  style={{ cursor: "pointer" }}
                   className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
                 >
                   Contact Us

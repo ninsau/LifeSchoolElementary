@@ -1,7 +1,9 @@
 import type { NextPage } from "next";
-import { SpeakerphoneIcon, XIcon } from "@heroicons/react/outline";
+import { SpeakerphoneIcon } from "@heroicons/react/outline";
+import { useRouter } from "next/router";
 
 const BannerComponent: NextPage = () => {
+  const router = useRouter();
   return (
     <>
       <div className="bg-indigo-600 mx-2 mt-12">
@@ -16,16 +18,17 @@ const BannerComponent: NextPage = () => {
               </span>
               <p className="ml-3 font-medium text-white truncate">
                 <span className="md:hidden">
-                  Big news! We&apos;ve started a program for adults.
+                  Big news! We have a language programme suited for adults.
                 </span>
                 <span className="hidden md:inline">
-                  Big news! We&apos;ve started a program for adults.
+                  Big news! We have a language programme suited for adults.
                 </span>
               </p>
             </div>
             <div className="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
               <a
-                href="#"
+                onClick={() => router.push("/academics")}
+                style={{ cursor: "pointer" }}
                 className="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-indigo-600 bg-white hover:bg-indigo-50"
               >
                 Learn more

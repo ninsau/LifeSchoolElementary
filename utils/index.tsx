@@ -17,41 +17,26 @@ export const navigation = [
 
 export const features = [
   {
-    name: "Program One",
+    name: "Primary Years",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus. Nulla in ante sed ex convallis dignissim nec aliquam nisl.",
+      "Life School Ghana offers Primary Years Program from Nursery through Year 6. The programme  focuses  on developing children to be inquirers in the classroom and in the outside world.",
   },
   {
-    name: "Program Two",
+    name: "Twi Lessons for Adults",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
+      " Life School Ghana offers Twi lessons for adults with little or no Twi experience and young beginners. The programme  focuses  on conversational skills. Lessons are organized in a very interactive way and students are engaged with activities such as simple Twi songs and stories.",
   },
   {
-    name: "Program Three",
+    name: "ENglish Lessons For Adults",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
-  },
-  {
-    name: "Program Four",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
-  },
-  {
-    name: "Program Five",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
-  },
-  {
-    name: "Program Six",
-    description:
-      "Lorem ipsum dolor sit, consectetur adipiscing elit. Ut volutpat lectus vitae lectus sollicitudin, dapibus consectetur diam dapibus.",
+      "Life School Ghana offers English lessons for adults with little or no English experience and young beginners. The programme  focuses  on conversational skills. Lessons are organized in a very interactive way and students are engaged with activities such as simple English songs and stories. ",
   },
 ];
 
 export function Copyright() {
   return (
     <div className="text-center p-6 bg-gray-900">
-      <span>Copyright © Life School </span>
+      <span>Copyright © Life School Ghana </span>
       <a className="text-gray-400 font-semibold" href="https://lifeschool.com/">
         {new Date().getFullYear()}
       </a>
@@ -63,53 +48,35 @@ export const about = [
   {
     name: "Global Curriculum",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Life School Ghana adopts a balanced and broad deep subject learning based on Ghana and UK curriculums but transcends their traditional boundaries.",
     icon: GlobeAltIcon,
   },
   {
     name: "No hidden fees",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Registration and tuition fee is a one time non refundable which must be paid in full in full at the time of admission.",
     icon: ScaleIcon,
-  },
-  {
-    name: "Qualified Teachers",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: LightningBoltIcon,
-  },
-  {
-    name: "Safe Environment",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
   },
 ];
 
 export const academics = [
   {
-    name: "Topic One",
+    name: "Primary Years",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Life School Ghana offers Primary Years Program from Nursery through Year 6. The programme  focuses  on developing children to be inquirers in the classroom and in the outside world. ",
     icon: GlobeAltIcon,
   },
   {
-    name: "Topic Two",
+    name: "Twi Lessons For Adults",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Life School Ghana offers Twi lessons for adults with little or no Twi experience and young beginners. The programme  focuses  on conversational skills. Lessons are organized in a very interactive way and students are engaged with activities such as simple Twi songs and stories. ",
     icon: ScaleIcon,
   },
   {
-    name: "Topic Three",
+    name: "English Lessons For Adults",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Life School Ghana offers English lessons for adults with little or no English experience and young beginners. The programme  focuses  on conversational skills. Lessons are organized in a very interactive way and students are engaged with activities such as simple English songs and stories. ",
     icon: LightningBoltIcon,
-  },
-  {
-    name: "Topic Four",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: AnnotationIcon,
   },
 ];
 
