@@ -41,7 +41,7 @@ const FooterComponent: NextPage = () => {
         <div className="mx-6 py-10 text-center md:text-left">
           <div className="grid grid-1 md:grid-cols-2 lg:grid-cols-2 gap-20">
             <div className="">
-              <h6
+              <h3
                 className="
             uppercase
             font-semibold
@@ -68,16 +68,16 @@ const FooterComponent: NextPage = () => {
                   ></path>
                 </svg>
                 LIFE SCHOOL Ghana
-              </h6>
+              </h3>
               <p>
                 Life School educates students to be free, creative, and critical
                 thinkers. We are committed to the success of all our learners.
               </p>
             </div>
             <div className="mx-20">
-              <h6 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
+              <h4 className="uppercase font-semibold mb-4 flex justify-center md:justify-start">
                 Useful links
-              </h6>
+              </h4>
 
               {navigation.map((item: any, i: number) => (
                 <Fragment key={i}>

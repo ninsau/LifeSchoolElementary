@@ -7,7 +7,7 @@ const HeadComponent: NextPage = () => {
   let urlPath = router.asPath;
 
   const title: any = {
-    "/": "Learn Twi & English In Ghana",
+    "/": "Learn Twi & English With Alice",
     "/about": "About Us",
     "/academics": "Academics",
     "/contact": "Contact Us",

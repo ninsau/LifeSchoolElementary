@@ -5,6 +5,7 @@ import BannerComponent from "./Banner";
 import MissionComponent from "./Mission";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 const HomeComponent: NextPage = () => {
   const router = useRouter();
@@ -118,13 +119,14 @@ const HomeComponent: NextPage = () => {
                   </div>
                 </div>
 
-                <a
-                  onClick={() => router.push("/contact")}
-                  style={{ cursor: "pointer" }}
-                  className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
-                >
-                  Contact Us
-                </a>
+                <Link href="/contact" passHref>
+                  <div
+                    style={{ cursor: "pointer" }}
+                    className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
+                  >
+                    Contact Us
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
