@@ -5,6 +5,7 @@ const MapComponent: NextPage = () => {
     <>
       <div className="hidden max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
         <iframe
+          title="googlemaps"
           width="600%"
           height="500"
           src="https://maps.google.com/maps?q=muuston%20beach&t=k&z=13&ie=UTF8&iwloc=&output=embed"
@@ -17,6 +18,7 @@ const MapComponent: NextPage = () => {
 
       <div className="sm:hidden max-w-7xl mx-auto py-12 px-4 sm:px-6">
         <iframe
+          title="googlemaps"
           className="md:w-32 lg:w-600"
           src="https://maps.google.com/maps?q=muuston%20beach&t=k&z=13&ie=UTF8&iwloc=&output=embed"
           frameBorder="0"

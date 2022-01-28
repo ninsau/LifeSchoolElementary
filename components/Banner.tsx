@@ -37,6 +37,7 @@ const BannerComponent: NextPage = () => {
             <div className="order-2 flex-shrink-0 sm:order-3 sm:ml-3">
               <button
                 type="button"
+                name="learn more"
                 className="-mr-1 flex p-2 rounded-md hover:bg-indigo-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2"
               ></button>
             </div>

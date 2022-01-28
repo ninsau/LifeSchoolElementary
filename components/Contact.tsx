@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
 import ActionComponent from "./Action";
-import MapComponent from "./Map";
+import dynamic from "next/dynamic";
 
 const ContactComponent: NextPage = () => {
+  const MapComponent = dynamic(() => import("./Map"), {
+    loading: () => <ActionComponent />,
+  });
   return (
     <>
       <ActionComponent />

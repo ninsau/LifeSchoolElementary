@@ -36,11 +36,11 @@ const AcademicsComponent: NextPage = () => {
         </div>
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <Image
-            src="https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,w_1080/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
             width={1080}
             height={1080}
             alt={"student"}
-            blurDataURL="https://images.unsplash.com/photo-1472673630503-c6bfba62adbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80"
+            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,w_1080/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
             placeholder="blur"
           />
         </div>

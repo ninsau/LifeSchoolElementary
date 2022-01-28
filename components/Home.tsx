@@ -2,12 +2,13 @@ import type { NextPage } from "next";
 import Image from "next/image";
 import ActionComponent from "./Action";
 import BannerComponent from "./Banner";
-import MapComponent from "./Map";
 import MissionComponent from "./Mission";
 import { useRouter } from "next/router";
+import dynamic from "next/dynamic";
 
 const HomeComponent: NextPage = () => {
   const router = useRouter();
+  const MapComponent = dynamic(() => import("./Map"));
   return (
     <>
       <div className="relative bg-white overflow-hidden">
@@ -40,53 +41,21 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
-                            width={200}
-                            height={280}
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
+                            width={176}
+                            height={246}
                             alt={"student"}
-                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp`}
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp`}
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp"
-                            width={200}
-                            height={280}
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp"
+                            width={176}
+                            height={246}
                             alt={"student"}
-                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp`}
-                            placeholder="blur"
-                          />
-                        </div>
-                      </div>
-                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
-                            placeholder="blur"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
-                            placeholder="blur"
-                          />
-                        </div>
-                        <div className="w-44 h-64 rounded-lg overflow-hidden">
-                          <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
-                            width={200}
-                            height={280}
-                            alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp`}
                             placeholder="blur"
                           />
                         </div>
@@ -94,21 +63,53 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
-                            width={200}
-                            height={280}
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
+                            width={176}
+                            height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
-                            width={200}
-                            height={280}
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+                            width={176}
+                            height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_280,q_auto,w_210/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            width={176}
+                            height={246}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                      </div>
+                      <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            width={176}
+                            height={246}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            placeholder="blur"
+                          />
+                        </div>
+                        <div className="w-44 h-64 rounded-lg overflow-hidden">
+                          <Image
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
+                            width={176}
+                            height={246}
+                            alt={"student"}
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
                             placeholder="blur"
                           />
                         </div>

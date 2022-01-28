@@ -4,6 +4,7 @@ import { PhoneIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
 import { navigation } from "../utils";
 import { useRouter } from "next/router";
 import { stateStore } from "../utils/store";
+import Link from "next/link";
 
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
@@ -52,21 +53,22 @@ const HeaderComponent: NextPage = () => {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item: any) => (
-                      <a
+                        <Link 
+                     
                         key={item.name}
-                        onClick={() => router.push(`${item.href}`)}
-                        style={{ cursor: "pointer" }}
-                        className={classNames(
-                          //   item.current
-                          false
-                            ? "bg-gray-900 text-white"
-                            : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "px-3 py-2 rounded-md text-sm font-medium"
-                        )}
+                        href={item.href}
+                        // color="white"
+                        // className={classNames(
+                        //   //   item.current
+                        //   false
+                        //     ? "bg-gray-900 text-white"
+                        //     : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                        //   "px-3 py-2 rounded-md text-sm font-medium"
+                        // )}
                         aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

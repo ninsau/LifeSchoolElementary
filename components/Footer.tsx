@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import { Fragment } from "react";
 import { Copyright, navigation } from "../utils/index";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const FooterComponent: NextPage = () => {
   const router = useRouter();
@@ -14,10 +15,11 @@ const FooterComponent: NextPage = () => {
           </div>
           <div className="flex justify-center">
             <a
-              href={"https://api.whatsapp.com/send?phone=‭233242188077‬"}
+              href={"https://api.whatsapp.com/send?phone=233242188077"}
               target={"_blank"}
               rel={"noreferrer"}
               className="mr-6 text-gray-400"
+              title={"WhatsApp Us"}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -80,16 +82,16 @@ const FooterComponent: NextPage = () => {
               {navigation.map((item: any, i: number) => (
                 <Fragment key={i}>
                   <p className="mb-4">
-                    <a
-                      onClick={() => router.push(item.href)}
-                      style={{ cursor: "pointer" }}
-                      className="text-gray-400"
-                    >
-                      {item.name}
-                    </a>
+                    <Link href={item.href}>{item.name}</Link>
                   </p>
                 </Fragment>
               ))}
+              <p className="mb-4">
+                <Link href="/terms">Terms & Conditions</Link>
+              </p>
+              <p className="mb-4">
+                <Link href="/privacy">Privacy & Cookies</Link>
+              </p>
             </div>
           </div>
         </div>
