@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import Script from "next/script";
 
 const HeadComponent: NextPage = () => {
   const router = useRouter();
@@ -19,6 +20,22 @@ const HeadComponent: NextPage = () => {
 
   return (
     <>
+      <Script
+        id="google analytics"
+        strategy="lazyOnload"
+        dangerouslySetInnerHTML={{
+          __html: `<!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X3P745VQF"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+      
+        gtag('config', 'G-2X3P745VQF');
+      </script>`,
+        }}
+      />
+
       <Head>
         <title>
           {title[urlPath]

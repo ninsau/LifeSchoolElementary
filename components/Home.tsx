@@ -6,6 +6,7 @@ import MissionComponent from "./Mission";
 import { useRouter } from "next/router";
 import dynamic from "next/dynamic";
 import Link from "next/link";
+import VideoComponent from "./Video";
 
 const HomeComponent: NextPage = () => {
   const router = useRouter();
@@ -42,21 +43,23 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden sm:opacity-0 lg:opacity-100">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1649713125/samples/people/3D64F0FE-48DD-41AA-B0EC-74BD465C47B5_sboere.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp`}
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/v1649713125/samples/people/3D64F0FE-48DD-41AA-B0EC-74BD465C47B5_sboere.webp`}
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/52D785CE-5CE3-4FBB-A328-CC41C90F1CF7_aszdvg.webp`}
+                            blurDataURL={`https://res.cloudinary.com/deyudesls/image/upload/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp`}
                             placeholder="blur"
                           />
                         </div>
@@ -64,6 +67,7 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
+                         
                             src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             width={176}
                             height={246}
@@ -74,21 +78,23 @@ const HomeComponent: NextPage = () => {
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp"
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1643034962/samples/people/F62ADC25-39CE-4633-810C-9C4CBC6B8F31_kptoit.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/v1643034962/samples/people/F62ADC25-39CE-4633-810C-9C4CBC6B8F31_kptoit.webp"
                             placeholder="blur"
                           />
                         </div>
@@ -96,21 +102,23 @@ const HomeComponent: NextPage = () => {
                       <div className="flex-shrink-0 grid grid-cols-1 gap-y-6 lg:gap-y-8">
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1643034962/samples/people/A4A41CE7-E61F-44E4-A5DB-9F7A89C2E920_srevbf.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/v1643034962/samples/people/A4A41CE7-E61F-44E4-A5DB-9F7A89C2E920_srevbf.webp"
                             placeholder="blur"
                           />
                         </div>
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
+                         
+                            src="https://res.cloudinary.com/deyudesls/image/upload/v1643034961/samples/people/29C56FAB-8003-4962-B5FC-7BF53193019D_dbkljh.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/v1643034961/samples/people/29C56FAB-8003-4962-B5FC-7BF53193019D_dbkljh.webp"
                             placeholder="blur"
                           />
                         </div>
@@ -132,6 +140,7 @@ const HomeComponent: NextPage = () => {
           </div>
         </div>
       </div>
+      <VideoComponent/>
       <BannerComponent />
       <MissionComponent />
       <ActionComponent />
