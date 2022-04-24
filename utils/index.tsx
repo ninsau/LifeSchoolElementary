@@ -98,7 +98,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034960/samples/people/D0D2740B-A6C6-4D37-859A-C931A26E2EBF_s1g8yi.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034960/samples/people/D0D2740B-A6C6-4D37-859A-C931A26E2EBF_s1g8yi.webp",
     imageAlt: "student image",
 
     color: "Ghanaian",
@@ -147,13 +147,13 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034960/samples/people/A8F8A7D0-03F8-4360-B17F-A79CBE5E59B6_vuoesf.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034960/samples/people/A8F8A7D0-03F8-4360-B17F-A79CBE5E59B6_vuoesf.webp",
     imageAlt: "student image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/189BD548-2F3C-4C1C-8F71-1E27E6EE7825_wyak5k.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/189BD548-2F3C-4C1C-8F71-1E27E6EE7825_wyak5k.webp",
     imageAlt: "student image",
   },
   {
@@ -165,7 +165,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/CFA26AD7-FF42-4274-B170-06B20876664C_lffrdj.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/CFA26AD7-FF42-4274-B170-06B20876664C_lffrdj.webp",
     imageAlt: "student image",
   },
   {
@@ -196,13 +196,13 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp",
     imageAlt: "student image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034957/samples/people/DE6088BD-A42D-4C57-B67D-79F84D6FD754_fessqi.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034957/samples/people/DE6088BD-A42D-4C57-B67D-79F84D6FD754_fessqi.webp",
     imageAlt: "student image",
   },
   {
@@ -226,13 +226,13 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp",
     imageAlt: "student image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/6E35B045-E3BC-4E1C-8865-18F0B877FCD0_htcgq4.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/6E35B045-E3BC-4E1C-8865-18F0B877FCD0_htcgq4.webp",
     imageAlt: "student image",
   },
   {
@@ -244,7 +244,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/7ECF6430-FA5A-4619-B7AD-C362839E3403_vo9jgj.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034956/samples/people/7ECF6430-FA5A-4619-B7AD-C362839E3403_vo9jgj.webp",
     imageAlt: "student image",
   },
   {
@@ -256,13 +256,13 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/7373B615-B29E-4114-AD5D-AC0D1E03B8C0_kmmwcn.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/7373B615-B29E-4114-AD5D-AC0D1E03B8C0_kmmwcn.webp",
     imageAlt: "student image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/B46D3DB9-19A3-41AD-8B50-6C6EF38A74B6_u6bjix.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/B46D3DB9-19A3-41AD-8B50-6C6EF38A74B6_u6bjix.webp",
     imageAlt: "student image",
   },
   {
@@ -274,7 +274,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/076F3C25-F20B-476F-9D31-C80EFA2CF135_w6dgpj.webp",
     imageAlt: "student image",
   },
   {
@@ -302,31 +302,31 @@ export const facilities = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/F26E111A-D7F4-468B-9A27-A0D24AAD22D7_duzlk9.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/F26E111A-D7F4-468B-9A27-A0D24AAD22D7_duzlk9.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/5BD9D2B5-1CBC-42D1-AFD6-B8E29F04998B_ndqi6f.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/5BD9D2B5-1CBC-42D1-AFD6-B8E29F04998B_ndqi6f.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/ED22AADD-069E-46BC-A586-205F5F8C65B6_z4dlqy.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/ED22AADD-069E-46BC-A586-205F5F8C65B6_z4dlqy.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/F705F6EF-8F86-4EE1-8293-8A50BD5048EB_gy7kyh.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/F705F6EF-8F86-4EE1-8293-8A50BD5048EB_gy7kyh.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/3C9AFE04-0597-4250-B60F-99C4EC1A04D8_zy70jm.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034959/samples/people/3C9AFE04-0597-4250-B60F-99C4EC1A04D8_zy70jm.jpg",
     imageAlt: "facility image",
   },
   {
@@ -344,19 +344,19 @@ export const facilities = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/AD691B66-2238-4E9B-9369-62D077DF37B1_i4gecn.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/AD691B66-2238-4E9B-9369-62D077DF37B1_i4gecn.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/CE37A377-157A-481D-9C5B-4B4C4F09C43F_al2f5d.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/CE37A377-157A-481D-9C5B-4B4C4F09C43F_al2f5d.jpg",
     imageAlt: "facility image",
   },
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/D7AAE9AF-54D0-4CD1-81B0-FEA0DFF1C958_k593ks.jpg",
     imageAlt: "facility image",
   },
   {
@@ -374,7 +374,7 @@ export const facilities = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.jpg ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034955/samples/people/BF220B29-BA24-4B7C-ACD7-2F37879EF829_dlkfiv.jpg",
     imageAlt: "facility image",
   },
   {
