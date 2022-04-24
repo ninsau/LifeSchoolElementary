@@ -106,7 +106,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034961/samples/people/16DA1B4C-1DC7-4FB4-BA9B-0C247F6074C1_ll8qac.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034961/samples/people/16DA1B4C-1DC7-4FB4-BA9B-0C247F6074C1_ll8qac.webp",
     imageAlt: "student image",
 
     color: "Ghanaian",
@@ -159,7 +159,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/AD691B66-2238-4E9B-9369-62D077DF37B1_i4gecn.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/AD691B66-2238-4E9B-9369-62D077DF37B1_i4gecn.webp",
     imageAlt: "student image",
   },
   {
@@ -177,7 +177,7 @@ export const students = [
   {
     href: "#",
     imageSrc:
-      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/47FABC3C-40FC-4393-8FC5-4098AC517613_wdmhas.webp ",
+      "https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_600,q_auto,w_450/v1643034958/samples/people/47FABC3C-40FC-4393-8FC5-4098AC517613_wdmhas.webp",
     imageAlt: "student image",
   },
   {
