@@ -68,11 +68,11 @@ const HomeComponent: NextPage = () => {
                         <div className="w-44 h-64 rounded-lg overflow-hidden">
                           <Image
                          
-                            src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
+                            src="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             width={176}
                             height={246}
                             alt={"student"}
-                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
+                            blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_246,q_auto,w_176/v1643034962/samples/people/79F40BF9-6D00-4B1D-AA32-EC8383EE6E90_jd8jrw.webp"
                             placeholder="blur"
                           />
                         </div>

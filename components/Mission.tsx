@@ -33,36 +33,36 @@ const MissionComponent: NextPage = () => {
           </div>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
             <Image
-              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034956/samples/people/69599A82-C543-46D9-BF14-24E23F3E9807_srec6j.webp"
               placeholder="blur"
             />
 
             <Image
-              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034954/samples/people/32DAA3C9-58D2-4776-8679-3717C4A0A9F8_ioi7qf.webp"
               placeholder="blur"
             />
             <Image
-              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034957/samples/people/72359897-1A22-46D4-9277-87161880F8E6_jzwb92.webp"
               placeholder="blur"
             />
             <Image
-              src="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+              src="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
               width={640}
               height={640}
               alt={"student"}
-              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_scale,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
+              blurDataURL="https://res.cloudinary.com/deyudesls/image/upload/c_pad,h_640,q_auto,w_640/v1643034961/samples/people/BCF78DFA-EFA3-4261-976C-00C84470F214_lfdxgw.webp"
               placeholder="blur"
             />
           </div>
