@@ -14,6 +14,7 @@ const HeadComponent: NextPage = () => {
     "/contact": "Contact Us",
     "/facilities": "Our Facilities",
     "/students": "Our Students",
+    "/gallery": "Complete Gallery",
     "/terms": "Terms & Conditions",
     "/privacy": "Privacy Policy",
   };
